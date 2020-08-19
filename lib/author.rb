@@ -22,7 +22,9 @@ end
     add_post(newpost)
   end
 
-  
+  def self.post_count
+    Post.all.length
+  end
 
 
 
