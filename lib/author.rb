@@ -17,6 +17,7 @@ end
 
   def add_post(post)
     post.author = self
+    #this is an assignment, not a comparison, so one equal sign!
   end
 
   def add_post_by_title(title)
