@@ -17,5 +17,14 @@ class Post
     @@all
   end
 
+  def author_name
+    if @author
+      @author.name
+    else
+      nil
+    end
+  end
+
+
 
 end
