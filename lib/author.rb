@@ -7,7 +7,7 @@ end
 
 
   def posts
-    Post.all.select do | song |
+    Post.all.select do | post |
       post.author == self
     end
   end
